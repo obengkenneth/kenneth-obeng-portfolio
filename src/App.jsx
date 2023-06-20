@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import About from './Components/About'
 import Projects from './Components/Projects'
+import Skills from './Components/Skills'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
+      <Skills />
       <p className='text-white text-3xl'>Hello World</p>
     </>
   )
